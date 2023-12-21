@@ -1,0 +1,52 @@
+@media (min-width: 992px) { 
+    .navbar-logo, 
+    .boton-sesion{
+        margin: 0px 50px;
+    }
+    .navbar-logo{
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px) { 
+    .tipo-plato{
+        text-align: center;
+        border-bottom: 0.01mm solid gray;
+    }
+    .opcion-navbar {
+        border-top: 1px solid rgb(0, 0, 0);
+    }
+
+    .boton-sesion{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .estructura-carta{
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+*{
+    font-family: 'Lobster', cursive;
+}
+
+.estructura-carta{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items: center;
+}
+
+.div-boton-anadir{
+    display: grid;
+}
+
+body{
+    background-color: rgba(142, 143, 143, 0.192);
+}

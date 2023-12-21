@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat-Order</title>
+    <link rel="icon" type="image/x-png" href="/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="./styles/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- SECCION NAVBAR -->
+    <nav class="navbar bg-success navbar-expand-lg">
+        <div class="container-fluid">
+            <nav class="navbar navbar-logo">
+                <img src="/img/logo.png" alt="Bootstrap" height="70">
+            </nav>
+            <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active opcion-navbar" aria-current="page" href="index.html">Carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active opcion-navbar" href="carrito.html">Carrito</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active opcion-navbar" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Opciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Métodos de pagos</a></li>
+                            <li><a class="dropdown-item" href="#">Contacto</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ayúdanos a mejorar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="btn btn-warning boton-sesion" type="submit">Iniciar Sesión</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCION CARTA DE COMDIA -->
+
+    <section class="carta-comida">
+        <h1 class="text-center mt-5">Carta de comida</h1>
+        <div class="borde-carta container border border-dark-secondary">
+
+            <h3 class="m-5 mb-0 tipo-plato">Tapas</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="card mt-5 bg-warning" style="width: 20rem;">
+                            <img src="https://assets.unileversolutions.com/recipes-v2/165292.jpg" class="card-img-top"
+                                alt="Ensalada">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">Ensalda --> 5€</h5>
+                                <p class="card-text text-center">Revuelto de lechuga, tomate, pepino...</p>
+                                <div class="div-boton-anadir">
+                                    <button type="button" class="btn btn-success">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="card mt-5 bg-warning" style="width: 20rem;">
+                            <img src="https://assets.unileversolutions.com/recipes-v2/165292.jpg" class="card-img-top"
+                                alt="Ensalada">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">Ensalda --> 5€</h5>
+                                <p class="card-text text-center">Revuelto de lechuga, tomate, pepino...</p>
+                                <div class="div-boton-anadir">
+                                    <button type="button" class="btn btn-success">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="card mt-5 bg-warning" style="width: 20rem;">
+                            <img src="https://assets.unileversolutions.com/recipes-v2/165292.jpg" class="card-img-top"
+                                alt="Ensalada">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">Ensalda --> 5€</h5>
+                                <p class="card-text text-center">Revuelto de lechuga, tomate, pepino...</p>
+                                <div class="div-boton-anadir">
+                                    <button type="button" class="btn btn-success">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h2 class="m-5 mb-0 tipo-plato">Carnes</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="card mt-5 bg-warning" style="width: 20rem;">
+                            <img src="https://assets.unileversolutions.com/recipes-v2/165292.jpg" class="card-img-top"
+                                alt="Ensalada">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">Ensalda --> 5€</h5>
+                                <p class="card-text text-center">Revuelto de lechuga, tomate, pepino...</p>
+                                <div class="div-boton-anadir">
+                                    <button type="button" class="btn btn-success">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="card mt-5 bg-warning" style="width: 20rem;">
+                            <img src="https://assets.unileversolutions.com/recipes-v2/165292.jpg" class="card-img-top"
+                                alt="Ensalada">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">Ensalda --> 5€ <span class="badge bg-success pt-2 fw-lighter">Nuevo</span></h5>
+                                <p class="card-text text-center">Revuelto de lechuga, tomate, pepino...</p>
+                                <div class="div-boton-anadir">
+                                    <button type="button" class="btn btn-success">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="card mt-5 bg-warning" style="width: 20rem;">
+                            <img src="https://assets.unileversolutions.com/recipes-v2/165292.jpg" class="card-img-top"
+                                alt="Ensalada">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">Ensalda --> 5€</h5>
+                                <p class="card-text text-center">Revuelto de lechuga, tomate, pepino...</p>
+                                <div class="div-boton-anadir">
+                                    <button type="button" class="btn btn-success">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="card mt-5 bg-warning" style="width: 20rem;">
+                            <img src="https://assets.unileversolutions.com/recipes-v2/165292.jpg" class="card-img-top"
+                                alt="Ensalada">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">Ensalda --> 5€</h5>
+                                <p class="card-text text-center">Revuelto de lechuga, tomate, pepino...</p>
+                                <div class="div-boton-anadir">
+                                    <button type="button" class="btn btn-success">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
